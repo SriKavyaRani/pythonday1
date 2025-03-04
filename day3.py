@@ -34,7 +34,7 @@ else:
 
 num1 = int(input("Enter num to check for prime"))
 spy = True
-for i in range(2, int(num1**1/25)+1):    #in mun1 palce ne can write (2,num1//2+1)
+for i in range(2, int(num1**0.5)+1):    #in mun1 palce ne can write (2,num1//2+1)
     if num1 % i==0:
         spy = False
         print("not a prime")
